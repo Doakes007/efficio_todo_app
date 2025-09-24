@@ -1,0 +1,17 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+ios/Pods/
+linux/
+macos/
+windows/
+
+# VS Code & IntelliJ
+.vscode/
+.idea/
+
+# Misc
+*.log
+

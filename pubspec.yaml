@@ -1,0 +1,35 @@
+name: Efficio
+description: "Efficio - Your smart To-Do List app"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # ✅ Local data storage
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  # ✅ Launcher icon generator
+  flutter_launcher_icons: ^0.10.0
+
+# Flutter configuration
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/   # All images in this folder
+
+# Launcher icon configuration
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/logo.png"  # <-- Make sure this file exists
+
